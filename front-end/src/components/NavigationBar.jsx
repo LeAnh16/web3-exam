@@ -1,25 +1,28 @@
-import React, { Component } from 'react';
-import {Navbar, Nav, NavItem, NavLink } from 'reactstrap';
+import React, {Component} from 'react';
+import { Row, Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 
-import MyClass from './Products';
-import ProductForm from './ProductForm';
+export default class NavigationBar extends Component {
+  constructor(props) {
+    super(props);
 
-
-class NavigationBar extends Component {
+  }
   render() {
     return (
-      <Navbar color="faded" light>
-      <Nav>
-        <NavItem>
-          <NavLink href="/">Home</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink href="/ProductForm">Form</NavLink>
-        </NavItem>
-      </Nav>
-      </Navbar>
+      <div style={{ margin:"10px" }}>
+        <Navbar color="faded" light >
+          <NavbarBrand>Game storage</NavbarBrand>
+            <Nav className="ml-auto">
+              <Row>
+              <NavItem>
+                  <NavLink href="/">Home</NavLink>
+              </NavItem>
+              <NavItem>
+               <NavLink href="/add">Form</NavLink>
+              </NavItem>
+              </Row>
+            </Nav>
+        </Navbar>
+      </div>
     );
   }
 }
-
-export default NavigationBar;

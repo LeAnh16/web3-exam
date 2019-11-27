@@ -12,7 +12,7 @@ function products(state = initialState, action) {
     case PRODUCT_CREATED:
       return {
         ...state,
-        products: [...state.items, action.payload]
+        products: [...state.products, action.payload]
       }
     case PRODUCT_UPDATED:
       return {

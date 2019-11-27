@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace back_end.Migrations
 {
     [DbContext(typeof(GamesContext))]
-    [Migration("20191123182308_InitialCreate")]
+    [Migration("20191125014013_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -30,6 +30,9 @@ namespace back_end.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Developer")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Img")
                         .HasColumnType("TEXT");
 
                     b.Property<int>("Quantity")

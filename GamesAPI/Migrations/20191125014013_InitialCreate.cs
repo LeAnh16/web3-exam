@@ -17,6 +17,7 @@ namespace back_end.Migrations
                     Category = table.Column<string>(nullable: true),
                     Developer = table.Column<string>(nullable: true),
                     ReleaseDate = table.Column<string>(nullable: true),
+                    Img = table.Column<string>(nullable: true),
                     Quantity = table.Column<int>(nullable: false)
                 },
                 constraints: table =>

@@ -30,6 +30,9 @@ namespace back_end.Migrations
                     b.Property<string>("Developer")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Img")
+                        .HasColumnType("TEXT");
+
                     b.Property<int>("Quantity")
                         .HasColumnType("INTEGER");
 

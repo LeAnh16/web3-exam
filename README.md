@@ -1,7 +1,7 @@
 # Dokumentasjon
 Webutvikling 3 mappelevering
 
-##Case
+## Case
 Lagersystem: Et system for administratorer i en bedrift for å holde orden på varer
 som er på lageret. Du kan selv velge temaet for bedriften (eksempelvis: spill, klær,
 bildeler, mat osv.).
@@ -12,7 +12,7 @@ bildeler, mat osv.).
 2. Kjør debugging mode fra gamesAPI.
 
 
-##Praktisk informasjon
+## Praktisk informasjon
 - Fokuset i denne eksamenen er på følgende hovedteknologier:
 1. Bootstrap
 2. Ajax
@@ -20,7 +20,7 @@ bildeler, mat osv.).
 4. WebAPI
 
 
-##Beskrivelse av det tekniske
+## Beskrivelse av det tekniske
 Du vil trenge å:
 - opprette et React-prosjekt som inkluderer
 1. Bootstrap
